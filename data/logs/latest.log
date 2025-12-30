@@ -1,0 +1,952 @@
+[00:25:46] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.18.2
+[00:25:46] [ForkJoinPool-1-worker-5/WARN]: Mod getittogetherdrops uses the version fabric-1.20-1.3.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:25:46] [ForkJoinPool-1-worker-6/WARN]: Mod gravestones uses the version v1.15 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:25:46] [ForkJoinPool-1-worker-9/WARN]: Mod naturalist uses the version 5.0pre3 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0pre3'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:25:47] [main/WARN]: Warnings were found!
+ - Mod 'Debugify' (debugify) 1.20.1+2.0 recommends any 3.x version of yet-another-config-lib, which is missing!
+	 - You should install any 3.x version of yet-another-config-lib for the optimal experience.
+[00:25:47] [main/INFO]: Loading 185 mods:
+	- almanac 1.0.2
+	- alternate-current 1.9.0
+	- anvianslib 1.4.1
+	- appleskin 2.5.1+mc1.20
+	- balm 7.3.37
+	   \-- kuma_api 20.1.12
+	- betterdeserttemples 1.20-Fabric-3.0.3
+	   \-- org_reflections_reflections 0.10.2
+	- betterstrongholds 1.20-Fabric-4.0.3
+	- bookshelf 20.2.13
+	- c2me 0.2.0+alpha.11.16
+	   |-- c2me-base 0.2.0+alpha.11.16
+	   |-- c2me-client-uncapvd 0.2.0+alpha.11.16
+	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.11.16
+	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.11.16
+	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.11.16
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.11.16
+	   |-- c2me-notickvd 0.2.0+alpha.11.16
+	   |-- c2me-opts-allocs 0.2.0+alpha.11.16
+	   |-- c2me-opts-chunk-access 0.2.0+alpha.11.16
+	   |-- c2me-opts-chunkio 0.2.0+alpha.11.16
+	   |-- c2me-opts-math 0.2.0+alpha.11.16
+	   |-- c2me-opts-scheduling 0.2.0+alpha.11.16
+	   |-- c2me-opts-worldgen-general 0.2.0+alpha.11.16
+	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.11.16
+	   |-- c2me-rewrites-chunk-serializer 0.2.0+alpha.11.16
+	   |-- c2me-rewrites-chunkio 0.2.0+alpha.11.16
+	   |-- c2me-server-utils 0.2.0+alpha.11.16
+	   |-- c2me-threading-chunkio 0.2.0+alpha.11.16
+	   |-- c2me-threading-lighting 0.2.0+alpha.11.16
+	   |-- c2me-threading-worldgen 0.2.0+alpha.11.16
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- net_objecthunter_exp4j 0.4.8
+	   \-- org_threadly_threadly 7.0
+	- chunky 1.3.146
+	- cicada 0.14.3+1.20.1
+	   \-- org_yaml_snakeyaml 2.2
+	- cloth-config 11.1.136
+	   \-- cloth-basic-math 0.6.1
+	- coolrain 1.3.1-1.20.1
+	- creativecore 2.12.34
+	   \-- net_minecraftforge_eventbus 6.0.3
+	- dawn 5.0.0
+	   |-- terraform-shapes-api-v1 7.0.1
+	   \-- terraform-wood-api-v1 7.0.1
+	- debugify 1.20.1+2.0
+	- distanthorizons 2.3.6-b
+	   |-- fabric-key-binding-api-v1 1.0.36+fb8d95da77
+	   |-- fabric-rendering-v1 3.0.7+b3afc78b77
+	   \-- fabric-screen-api-v1 2.0.7+b3afc78b77
+	- easymagic 8.0.1
+	- emotecraft 2.2.7-b.build.50
+	   |-- bendy-lib 4.0.0
+	   \-- player-animator 1.0.2-rc1+1.20
+	- endrem 5.2.4
+	- entityculling 1.9.3
+	   |-- transition 1.0.8
+	   \-- trender 1.0.8
+	- fabric-api 0.92.6+1.20.1
+	   |-- fabric-api-base 0.4.32+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.37+1802ada577
+	   |-- fabric-biome-api-v1 13.0.14+1802ada577
+	   |-- fabric-block-api-v1 1.0.12+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.3+924f046a77
+	   |-- fabric-blockrenderlayer-v1 1.1.42+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.3+1802ada577
+	   |-- fabric-command-api-v1 1.2.35+f71b366f77
+	   |-- fabric-command-api-v2 2.2.14+1802ada577
+	   |-- fabric-commands-v0 0.2.52+df3654b377
+	   |-- fabric-containers-v0 0.1.67+df3654b377
+	   |-- fabric-content-registries-v0 4.0.13+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.6+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.20+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.2+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.7+1802ada577
+	   |-- fabric-dimensions-v1 2.1.55+1802ada577
+	   |-- fabric-entity-events-v1 1.6.1+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.5+13a40c6677
+	   |-- fabric-events-lifecycle-v0 0.2.64+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.41+1802ada577
+	   |-- fabric-item-api-v1 2.1.29+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.14+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.38+1802ada577
+	   |-- fabric-keybindings-v0 0.2.36+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.23+1802ada577
+	   |-- fabric-loot-api-v2 1.2.3+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.47+9e7660c677
+	   |-- fabric-message-api-v1 5.1.10+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.52+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.4+1802ada577
+	   |-- fabric-models-v0 0.4.3+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.14+a158aa0477
+	   |-- fabric-networking-v0 0.3.54+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.5+e35120df77
+	   |-- fabric-particles-v1 1.1.3+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.24+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.6+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.2+1802ada577
+	   |-- fabric-renderer-indigo 1.5.3+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.47+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.39+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.29+1802ada577
+	   |-- fabric-rendering-v0 1.1.50+df3654b377
+	   |-- fabric-rendering-v1 3.0.9+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.9+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.12+fb82e9d777
+	   |-- fabric-screen-api-v1 2.0.9+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.33+1802ada577
+	   |-- fabric-sound-api-v1 1.0.14+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.6+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
+	- fabric-language-kotlin 1.13.7+kotlin.2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- ferritecore 6.0.1
+	- forgeconfigapiport 8.0.3
+	- friendsandfoes 3.0.9
+	   \-- reach-entity-attributes 2.4.0
+	- fzzy_config 0.7.3+1.20.1
+	   |-- blue_endless_jankson 1.2.3
+	   |-- fabric-permissions-api-v0 0.3.1
+	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
+	- geckolib 4.8.2
+	   \-- com_eliotlash_mclib_mclib 20
+	- getittogetherdrops fabric-1.20-1.3.1
+	- gravestones v1.15
+	- gravestonesfix 1.1.0
+	- ichunutil 1.0.3
+	- immersive_aircraft 1.4.0+1.20.1
+	   \-- org_mariuszgromada_math_mathparser_org-mxparser 5.2.1
+	- java 21
+	- jei 15.20.0.127
+	- konkrete 1.8.1
+	- krypton 0.2.3
+	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
+	- ksyxis 1.3.4
+	- letmedespawn 1.5.0
+	- lithium 0.11.4
+	- lootr 0.7.35.86
+	- memoryleakfix 1.1.5
+	- midnightlib 1.9.1
+	- minecraft 1.20.1
+	- modernfix 5.25.2+mc1.20.1
+	- mru 1.0.4+1.20.1+fabric
+	- naturalist 5.0pre3
+	- notenoughanimations 1.10.6
+	   \-- trender 1.0.8
+	- nyfsspiders 2.1.1
+	- packetfixer 3.3.1
+	- placeholder-api 2.1.4+1.20.1
+	- pneumonocore 1.20.1
+	- promenade 4.1.1
+	   \-- biolith 1.0.0-alpha.8
+	        \-- terraform-surfaces-api-v1 7.0.1
+	- puzzleslib 8.0.15
+	- smsn 1.3.5-1.20.1
+	- sophisticatedbackpacks 1.20.1-3.23.4.5.110
+	- sophisticatedcore 1.20.1-1.2.7.14.163
+	   |-- porting_lib_extensions 2.3.2+1.20.1
+	   |    |-- porting_lib_accessors 2.3.2+1.20.1
+	   |    |-- porting_lib_attributes 2.3.2+1.20.1
+	   |    |-- porting_lib_common 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_fluids 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_loot 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    \-- porting_lib_lazy_registration 2.3.2+1.20.1
+	   |-- porting_lib_model_loader 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_networking 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_tool_actions 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_transfer 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   \-- team_reborn_energy 3.0.0
+	- starlight 1.1.2+fabric.dbc156f
+	- vmp 0.2.0+beta.7.102
+	- voicechat 1.20.1-2.6.6
+	   |-- fabric-key-binding-api-v1 1.0.36+fb8d95da82
+	   \-- voicechat_api 2.6.0
+	- watching 1.9.2
+	- xaerominimap 25.2.10
+	- xaeroworldmap 1.39.12
+	- yet_another_config_lib_v3 3.6.6+1.20.1-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- yungsapi 1.20-Fabric-4.0.6
+	   \-- org_javassist_javassist 3.29.2-GA
+[00:25:47] [main/WARN]: Found 1 non-fabric mod:
+	- qfapi-7.7.0_qsl-6.3.0_fapi-0.92.2_mc-1.20.1.jar
+[00:25:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/data/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:25:50] [main/INFO]: Compatibility level set to JAVA_17
+[00:25:50] [main/WARN]: Reference map 'anvianslib.refmap.json' for anvianslib.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:25:50] [main/WARN]: Reference map 'anvianslib.refmap.json' for anvianslib.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:25:50] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[00:25:51] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[00:25:51] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[00:25:51] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[00:25:51] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[00:25:51] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[00:25:51] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[00:25:51] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[00:25:51] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[00:25:51] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[00:25:51] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[00:25:51] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[00:25:51] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[00:25:51] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[00:25:51] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[00:25:51] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[00:25:51] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[00:25:51] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[00:25:51] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[00:25:51] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[00:25:51] [main/INFO]: Preloading Debugify
+[00:25:51] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 2 override(s) found
+[00:25:51] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:25:51] [main/INFO]: Loaded configuration file for ModernFix 5.25.2+mc1.20.1: 71 options available, 3 override(s) found
+[00:25:51] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[00:25:51] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[00:25:51] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[00:25:51] [main/INFO]: Applying Nashorn fix
+[00:25:51] [main/INFO]: Packet Fixer fabric 1.19.3-1.20.1 has been applied successfully.
+[00:25:51] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[00:25:52] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[00:25:52] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[00:25:53] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[00:25:53] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me, krypton, vmp]) disables it and children
+[00:25:54] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[00:25:54] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[00:25:54] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[00:25:59] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[00:25:59] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[00:25:59] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[00:25:59] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[00:25:59] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[00:26:03] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[00:26:04] [main/INFO]: Vanilla bootstrap took 8081 milliseconds
+[00:26:04] [main/INFO]: Reflections took 143 ms to scan 1 urls, producing 1 keys and 2 values
+[00:26:04] [main/INFO]: Reflections took 7 ms to scan 1 urls, producing 1 keys and 2 values
+[00:26:05] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 2 values
+[00:26:05] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 2 values
+[00:26:05] [main/INFO]: Biolith is initializing...
+[00:26:05] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[00:26:05] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[00:26:05] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[00:26:05] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[00:26:05] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[00:26:05] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[00:26:05] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[00:26:05] [main/INFO]: Enabled 34 bug fixes: [MC-2025, MC-7569, MC-8187, MC-14923, MC-30391, MC-31819, MC-69216, MC-72151, MC-88371, MC-89146, MC-90084, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-124117, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-193343, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[00:26:05] [main/INFO]: Successfully Debugify'd your game!
+[00:26:05] [main/INFO]: Constructing common components for easymagic:main
+[00:26:06] [Cicada thread 0/INFO]: [cicada] Meow
+[00:26:08] [main/INFO]: [KONKRETE] Successfully initialized!
+[00:26:08] [main/INFO]: [KONKRETE] Server-side libs ready to use!
+[00:26:08] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
+[00:26:08] [main/INFO]: Ksyxis: Booting... (platform: Fabric/KFabric, manual: false)
+[00:26:08] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.7, time: 0 ms)
+[00:26:08] [main/INFO]: Initializing PneumonoCore
+[00:26:09] [main/INFO]: Constructing common components for puzzleslib:main
+[00:26:10] [main/INFO]: [voicechat] Compatibility version 20
+[00:26:10] [main/INFO]: [voicechat] Loading plugins
+[00:26:10] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[00:26:10] [main/INFO]: [voicechat] Initializing plugins
+[00:26:10] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[00:26:10] [main/INFO]: Reflections took 22 ms to scan 1 urls, producing 1 keys and 4 values
+[00:26:10] [main/INFO]: Reflections took 18 ms to scan 1 urls, producing 1 keys and 4 values
+[00:26:10] [main/INFO]: Initializing Distant Horizons server, firing DhApiBeforeDhInitEvent event...
+[00:26:10] [main/INFO]: Distant Horizons, Version: 2.3.6-b
+[00:26:10] [main/INFO]: Registering Fabric Server Events
+[00:26:10] [main/INFO]: Registered mod compatibility accessor for: [Starlight-Fabric-1.18.X].
+[00:26:10] [main/INFO]: Distant Horizons server Initialized, adding event subscribers...
+[00:26:10] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[00:26:10] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[00:26:10] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[00:26:11] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:26:11] [main/INFO]: Bypassed Mojang DFU
+[00:26:14] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[00:26:18] [main/INFO]: Loaded 8 recipes
+[00:26:18] [main/ERROR]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	... 7 more
+[00:26:18] [main/INFO]: Loaded 1635 advancements
+[00:26:19] [main/WARN]: Initial datapack load took 7.450 s
+[00:26:19] [main/INFO]: Applied 667 biome modifications to 57 of 70 new biomes in 47.84 ms
+[00:26:19] [Server thread/INFO]: Loading server config for easymagic
+[00:26:19] [Server thread/INFO]: Initialising config for [DistantHorizons]
+[00:26:19] [Server thread/INFO]: [DistantHorizons] Config initialised
+[00:26:19] [Server thread/INFO]: Running Delayed setup...
+[00:26:19] [Server thread/INFO]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
+[00:26:19] [Server thread/INFO]: Checking for Distant Horizons update
+[00:26:22] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: BALANCED
+[00:26:22] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: MEDIUM
+[00:26:22] [DH-ApplyConfigPresetTimer/INFO]: preset active: BALANCED
+[00:26:22] [DH-ApplyConfigPresetTimer/INFO]: preset active: MEDIUM
+[00:26:25] [Server thread/INFO]: New version (2.4.2-b) of Distant Horizons is available
+[00:26:25] [Server thread/INFO]: Download link: https://cdn.modrinth.com/data/uCdwusMi/versions/ALYWdZoX/DistantHorizons-2.4.2-b-1.20.1-fabric-forge.jar
+[00:26:25] [Server thread/INFO]: Distant Horizons server Initialized at .
+[00:26:25] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
+[00:26:25] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[00:26:25] [Server thread/INFO]: Loading properties
+[00:26:25] [Server thread/INFO]: Default game type: SURVIVAL
+[00:26:25] [Server thread/INFO]: Generating keypair
+[00:26:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:26:25] [Server thread/INFO]: Using epoll channel type
+[00:26:25] [Server thread/INFO]: Preparing level "world"
+[00:26:25] [Server thread/INFO]: Enforcing safe world random access
+[00:26:27] [Server thread/INFO]: Changing watch distance to 10
+[00:26:28] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:overworld]-[./world/data]...
+[00:26:28] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[00:26:28] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[00:26:28] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(./world/data)]].
+[00:26:32] [Server thread/INFO]: Changing watch distance to 10
+[00:26:32] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_end]-[./world/DIM1/data]...
+[00:26:32] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[00:26:32] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[00:26:32] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(./world/data;./world/DIM1/data)]].
+[00:26:32] [Server thread/INFO]: Changing watch distance to 10
+[00:26:32] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_nether]-[./world/DIM-1/data]...
+[00:26:32] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[00:26:32] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[00:26:32] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(./world/data;./world/DIM1/data;./world/DIM-1/data)]].
+[00:26:32] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (injector: modern, ci: CallbackInfo[TYPE=CallbackInfo,NAME=method_3774,CANCELLABLE=false], server: net.minecraft.class_3176@502068c9)
+[00:26:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:26:32] [Server thread/INFO]: Time elapsed: 26 ms
+[00:26:32] [Server thread/INFO]: Done (7.198s)! For help, type "help"
+[00:26:32] [Server thread/INFO]: Starting remote control listener
+[00:26:32] [Server thread/INFO]: Thread RCON Listener started
+[00:26:32] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[00:26:33] [Server thread/WARN]: Dedicated server took 50.922 seconds to load
+[00:26:33] [Server thread/INFO]: [STDOUT]: PREPARING FOR RELOAD
+[00:26:33] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[00:26:33] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[00:26:33] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[00:26:33] [Server thread/INFO]: DH TerraFirmaCraft detection: false
+[00:26:33] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[00:26:33] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
+[00:26:33] [Server thread/INFO]: Batch Chunk Generator initialized
+[00:26:33] [Server thread/INFO]: Creating world gen queue
+[00:26:33] [Server thread/INFO]: Created world gen queue
+[00:26:33] [Server thread/INFO]: Set world gen queue for level [minecraft:overworld].
+[00:26:33] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[00:26:33] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
+[00:26:33] [Server thread/INFO]: Batch Chunk Generator initialized
+[00:26:33] [Server thread/INFO]: Creating world gen queue
+[00:26:33] [Server thread/INFO]: Created world gen queue
+[00:26:33] [Server thread/INFO]: Set world gen queue for level [minecraft:the_end].
+[00:26:33] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[00:26:33] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
+[00:26:33] [Server thread/INFO]: Batch Chunk Generator initialized
+[00:26:33] [Server thread/INFO]: Creating world gen queue
+[00:26:33] [Server thread/INFO]: Created world gen queue
+[00:26:33] [Server thread/INFO]: Set world gen queue for level [minecraft:the_nether].
+[00:26:39] [User Authenticator #1/INFO]: UUID of player QuimetMCl is cb5a622d-e338-4a28-9950-4bacc3693c07
+[00:26:39] [Server thread/INFO]: QuimetMCl[/172.18.0.1:34150] logged in with entity id 1 at (-26.1657549696657, 73.0, 27.9523658197885)
+[00:26:39] [Server thread/INFO]: Sent config sync packet to 1 player(s)
+[00:26:39] [Server thread/INFO]: Player [QuimetMCl] joined.
+[00:26:39] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[00:26:39] [Server thread/INFO]: QuimetMCl joined the game
+[00:26:40] [Server thread/INFO]: [voicechat] Received secret request of QuimetMCl (20)
+[00:26:40] [Server thread/INFO]: [voicechat] Sent secret to QuimetMCl
+[00:26:46] [Server thread/INFO]: Async chunk loading for player QuimetMCl completed
+[00:26:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2500ms or 50 ticks behind
+[00:26:49] [Server thread/INFO]: [QuimetMCl: Set own game mode to Creative Mode]
+[00:27:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8939ms or 178 ticks behind
+[00:27:29] [Server thread/WARN]: QuimetMCl moved too quickly! -0.4550261986334152,-0.038071297512829005,10.669866447700372
+[00:27:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2288ms or 45 ticks behind
+[00:27:44] [Server thread/WARN]: QuimetMCl moved too quickly! 8.095850135067575,4.500000176729813,5.607022462673399
+[00:28:15] [Server thread/INFO]: Locating element #friendsandfoes:has_savanna_mauler (minecraft:savanna) took 869 ms
+[00:28:17] [Server thread/INFO]: [QuimetMCl: Teleported QuimetMCl to -568.500000, 94.000000, -75.500000]
+[00:28:18] [C2ME worker #2/INFO]: Instantiating Mojang DFU
+[00:28:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8512ms or 170 ticks behind
+[00:28:28] [Server thread/INFO]: [QuimetMCl: Started tick profiling]
+[00:28:39] [Server thread/INFO]: [QuimetMCl: Stopped tick profiling after 10.34 seconds and 208 ticks (20.12 ticks per second)]
+[00:30:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2267ms or 45 ticks behind
+[00:32:00] [Server thread/WARN]: QuimetMCl moved too quickly! -9.940297959684699,0.0,-1.1004096821540656
+[00:32:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2885ms or 57 ticks behind
+[00:32:35] [Server thread/INFO]: [QuimetMCl: Set the world spawn point to -434, 68, -299 [0.0]]
+[00:33:23] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 548 chunks (3.40%), ETA: 0:00:02, Rate: 5480.0 cps, Current: -16, -2
+[00:33:25] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 584 chunks (3.62%), ETA: 0:00:53, Rate: 288.7 cps, Current: -12, -3
+[00:33:26] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 636 chunks (3.94%), ETA: 0:01:14, Rate: 209.0 cps, Current: -11, -7
+[00:33:27] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 713 chunks (4.42%), ETA: 0:01:28, Rate: 174.6 cps, Current: -2, -13
+[00:33:28] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 739 chunks (4.58%), ETA: 0:01:45, Rate: 145.2 cps, Current: -1, -11
+[00:33:29] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 749 chunks (4.64%), ETA: 0:02:05, Rate: 122.5 cps, Current: -3, -14
+[00:33:30] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 770 chunks (4.77%), ETA: 0:02:23, Rate: 106.8 cps, Current: -4, -19
+[00:33:32] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 852 chunks (5.28%), ETA: 0:02:33, Rate: 99.6 cps, Current: -12, -20
+[00:33:33] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 929 chunks (5.76%), ETA: 0:02:45, Rate: 91.6 cps, Current: -14, -32
+[00:33:36] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 943 chunks (5.85%), ETA: 0:03:31, Rate: 71.7 cps, Current: -10, -27
+[00:33:39] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 982 chunks (6.09%), ETA: 0:04:08, Rate: 60.9 cps, Current: -5, -26
+[00:33:40] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 989 chunks (6.13%), ETA: 0:04:22, Rate: 57.7 cps, Current: -5, -32
+[00:33:42] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1009 chunks (6.26%), ETA: 0:04:37, Rate: 54.4 cps, Current: -2, -25
+[00:33:43] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1040 chunks (6.45%), ETA: 0:04:43, Rate: 53.2 cps, Current: 1, -27
+[00:33:45] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1045 chunks (6.48%), ETA: 0:05:09, Rate: 48.7 cps, Current: 4, -32
+[00:33:46] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1050 chunks (6.51%), ETA: 0:05:31, Rate: 45.5 cps, Current: 5, -32
+[00:33:53] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1057 chunks (6.55%), ETA: 0:07:03, Rate: 35.6 cps, Current: 10, -31
+[00:33:55] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1060 chunks (6.57%), ETA: 0:17:16, Rate: 14.5 cps, Current: 11, -32
+[00:33:57] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1063 chunks (6.59%), ETA: 0:21:10, Rate: 11.9 cps, Current: 13, -31
+[00:33:58] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1065 chunks (6.60%), ETA: 0:22:52, Rate: 11.0 cps, Current: 14, -32
+[00:34:01] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1069 chunks (6.63%), ETA: 0:34:24, Rate: 7.3 cps, Current: 2, -30
+[00:34:03] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1085 chunks (6.73%), ETA: 0:46:57, Rate: 5.3 cps, Current: 5, -30
+[00:34:04] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1124 chunks (6.97%), ETA: 0:37:39, Rate: 6.6 cps, Current: 5, -26
+[00:34:05] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1136 chunks (7.04%), ETA: 0:36:36, Rate: 6.8 cps, Current: 12, -27
+[00:34:06] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1149 chunks (7.12%), ETA: 0:35:34, Rate: 7.0 cps, Current: 9, -25
+[00:34:07] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1170 chunks (7.25%), ETA: 0:36:18, Rate: 6.9 cps, Current: 11, -22
+[00:34:08] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1188 chunks (7.37%), ETA: 0:34:18, Rate: 7.3 cps, Current: 11, -20
+[00:34:09] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1232 chunks (7.64%), ETA: 0:29:13, Rate: 8.5 cps, Current: 8, -17
+[00:34:10] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1259 chunks (7.81%), ETA: 0:27:00, Rate: 9.2 cps, Current: 3, -20
+[00:34:11] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1285 chunks (7.97%), ETA: 0:26:14, Rate: 9.4 cps, Current: 1, -15
+[00:34:12] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1304 chunks (8.08%), ETA: 0:27:41, Rate: 8.9 cps, Current: 1, -14
+[00:34:18] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1348 chunks (8.36%), ETA: 0:21:05, Rate: 11.7 cps, Current: 2, -6
+[00:34:19] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1450 chunks (8.99%), ETA: 0:16:09, Rate: 15.1 cps, Current: 13, -4
+[00:34:21] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1458 chunks (9.04%), ETA: 0:16:58, Rate: 14.4 cps, Current: 8, -9
+[00:34:22] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1486 chunks (9.21%), ETA: 0:16:33, Rate: 14.7 cps, Current: 9, -13
+[00:34:23] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1518 chunks (9.41%), ETA: 0:14:38, Rate: 16.6 cps, Current: 13, -13
+[00:34:24] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1524 chunks (9.45%), ETA: 0:15:09, Rate: 16.1 cps, Current: 14, -12
+[00:34:25] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1541 chunks (9.55%), ETA: 0:15:07, Rate: 16.1 cps, Current: 16, -14
+[00:34:27] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1554 chunks (9.63%), ETA: 0:14:17, Rate: 17.0 cps, Current: 16, -12
+[00:34:28] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1579 chunks (9.79%), ETA: 0:14:03, Rate: 17.2 cps, Current: 16, -10
+[00:34:29] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1585 chunks (9.83%), ETA: 0:12:48, Rate: 18.9 cps, Current: 20, -10
+[00:34:31] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1624 chunks (10.07%), ETA: 0:12:43, Rate: 19.0 cps, Current: 17, -1
+[00:34:32] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1633 chunks (10.12%), ETA: 0:13:02, Rate: 18.5 cps, Current: 20, -8
+[00:34:33] [Server thread/WARN]: QuimetMCl moved too quickly! 9.946322844962083,0.0,-3.278714275636844
+[00:34:33] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1656 chunks (10.27%), ETA: 0:13:31, Rate: 17.8 cps, Current: 24, -6
+[00:34:35] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1672 chunks (10.37%), ETA: 0:13:26, Rate: 17.9 cps, Current: 27, -7
+[00:34:36] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1687 chunks (10.46%), ETA: 0:13:20, Rate: 18.0 cps, Current: 29, -3
+[00:34:38] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1723 chunks (10.68%), ETA: 0:14:22, Rate: 16.7 cps, Current: 29, -8
+[00:34:39] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1734 chunks (10.75%), ETA: 0:14:56, Rate: 16.1 cps, Current: 30, -9
+[00:34:40] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1745 chunks (10.82%), ETA: 0:15:17, Rate: 15.7 cps, Current: 25, -12
+[00:34:42] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1748 chunks (10.84%), ETA: 0:15:49, Rate: 15.1 cps, Current: 31, -8
+[00:34:45] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1752 chunks (10.86%), ETA: 0:16:23, Rate: 14.6 cps, Current: 25, -13
+[00:34:49] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1769 chunks (10.97%), ETA: 0:21:49, Rate: 11.0 cps, Current: 26, -15
+[00:34:50] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1784 chunks (11.06%), ETA: 0:21:37, Rate: 11.1 cps, Current: 30, -13
+[00:34:51] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1793 chunks (11.12%), ETA: 0:22:43, Rate: 10.5 cps, Current: 29, -18
+[00:34:52] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1795 chunks (11.13%), ETA: 0:25:24, Rate: 9.4 cps, Current: 30, -18
+[00:34:55] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1816 chunks (11.26%), ETA: 0:25:17, Rate: 9.4 cps, Current: 31, -19
+[00:34:56] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1847 chunks (11.45%), ETA: 0:23:30, Rate: 10.1 cps, Current: 24, -18
+[00:34:57] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1861 chunks (11.54%), ETA: 0:24:29, Rate: 9.7 cps, Current: 23, -19
+[00:34:58] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1866 chunks (11.57%), ETA: 0:24:55, Rate: 9.5 cps, Current: 23, -20
+[00:35:00] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1897 chunks (11.76%), ETA: 0:25:09, Rate: 9.4 cps, Current: 20, -22
+[00:35:02] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1899 chunks (11.77%), ETA: 0:26:09, Rate: 9.1 cps, Current: 21, -22
+[00:35:03] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1921 chunks (11.91%), ETA: 0:27:22, Rate: 8.6 cps, Current: 16, -25
+[00:35:07] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1944 chunks (12.05%), ETA: 0:30:40, Rate: 7.7 cps, Current: 17, -28
+[00:35:08] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1945 chunks (12.06%), ETA: 0:32:18, Rate: 7.3 cps, Current: 16, -29
+[00:35:10] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 1970 chunks (12.21%), ETA: 0:30:25, Rate: 7.8 cps, Current: 23, -29
+[00:35:11] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2006 chunks (12.44%), ETA: 0:27:05, Rate: 8.7 cps, Current: 22, -32
+[00:35:13] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2019 chunks (12.52%), ETA: 0:23:55, Rate: 9.8 cps, Current: 28, -26
+[00:35:14] [Netty Epoll Play IO Thread #0/INFO]: Player [QuimetMCl] disconnected.
+[00:35:14] [Server thread/INFO]: QuimetMCl lost connection: Disconnected
+[00:35:14] [Server thread/INFO]: QuimetMCl left the game
+[00:35:14] [Server thread/INFO]: [voicechat] Disconnecting client QuimetMCl
+[00:35:14] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2031 chunks (12.59%), ETA: 0:24:15, Rate: 9.7 cps, Current: 30, -27
+[00:35:18] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2049 chunks (12.70%), ETA: 0:23:50, Rate: 9.8 cps, Current: 5, -59
+[00:35:22] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2068 chunks (12.82%), ETA: 0:24:57, Rate: 9.4 cps, Current: 3, -61
+[00:35:23] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2101 chunks (13.03%), ETA: 0:22:59, Rate: 10.2 cps, Current: 4, -64
+[00:35:24] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2139 chunks (13.26%), ETA: 0:21:09, Rate: 11.0 cps, Current: 10, -60
+[00:35:25] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2164 chunks (13.42%), ETA: 0:21:20, Rate: 10.9 cps, Current: 8, -56
+[00:35:26] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2204 chunks (13.66%), ETA: 0:19:35, Rate: 11.8 cps, Current: 15, -54
+[00:35:27] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2260 chunks (14.01%), ETA: 0:16:44, Rate: 13.8 cps, Current: 4, -49
+[00:35:29] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2297 chunks (14.24%), ETA: 0:16:33, Rate: 13.9 cps, Current: 1, -51
+[00:35:30] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2332 chunks (14.46%), ETA: 0:15:42, Rate: 14.6 cps, Current: 2, -46
+[00:35:31] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2370 chunks (14.69%), ETA: 0:14:04, Rate: 16.3 cps, Current: 3, -33
+[00:35:33] [DH-World Gen Thread[3]/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=79}
+[00:35:33] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2427 chunks (15.05%), ETA: 0:13:24, Rate: 17.0 cps, Current: 14, -33
+[00:35:34] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2479 chunks (15.37%), ETA: 0:11:35, Rate: 19.6 cps, Current: 12, -39
+[00:35:35] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2513 chunks (15.58%), ETA: 0:11:16, Rate: 20.1 cps, Current: 14, -42
+[00:35:36] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2537 chunks (15.73%), ETA: 0:11:14, Rate: 20.1 cps, Current: 12, -45
+[00:35:37] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2556 chunks (15.85%), ETA: 0:10:46, Rate: 21.0 cps, Current: 14, -46
+[00:35:39] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2639 chunks (16.36%), ETA: 0:09:25, Rate: 23.9 cps, Current: 17, -39
+[00:35:40] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2709 chunks (16.80%), ETA: 0:08:48, Rate: 25.4 cps, Current: 26, -35
+[00:35:41] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2765 chunks (17.14%), ETA: 0:08:31, Rate: 26.1 cps, Current: 31, -41
+[00:35:42] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2805 chunks (17.39%), ETA: 0:08:10, Rate: 27.1 cps, Current: 30, -44
+[00:35:43] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2848 chunks (17.66%), ETA: 0:07:40, Rate: 28.9 cps, Current: 25, -50
+[00:35:44] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2943 chunks (18.25%), ETA: 0:07:05, Rate: 31.0 cps, Current: 21, -56
+[00:35:45] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 2975 chunks (18.45%), ETA: 0:06:25, Rate: 34.1 cps, Current: 16, -63
+[00:35:46] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3045 chunks (18.88%), ETA: 0:06:10, Rate: 35.3 cps, Current: 30, -57
+[00:35:48] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3052 chunks (18.92%), ETA: 0:05:45, Rate: 37.8 cps, Current: 30, -59
+[00:35:49] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3055 chunks (18.94%), ETA: 0:06:00, Rate: 36.3 cps, Current: 28, -62
+[00:35:50] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3061 chunks (18.98%), ETA: 0:06:14, Rate: 34.9 cps, Current: 29, -64
+[00:35:51] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3075 chunks (19.07%), ETA: 0:06:23, Rate: 34.0 cps, Current: -32, -64
+[00:35:53] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3115 chunks (19.31%), ETA: 0:06:23, Rate: 34.0 cps, Current: -28, -61
+[00:35:54] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3131 chunks (19.41%), ETA: 0:06:36, Rate: 32.8 cps, Current: -27, -63
+[00:35:56] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3138 chunks (19.46%), ETA: 0:06:50, Rate: 31.7 cps, Current: -24, -63
+[00:35:57] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3184 chunks (19.74%), ETA: 0:06:57, Rate: 31.0 cps, Current: -24, -60
+[00:35:58] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3213 chunks (19.92%), ETA: 0:06:58, Rate: 30.9 cps, Current: -23, -55
+[00:36:00] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3224 chunks (19.99%), ETA: 0:07:19, Rate: 29.4 cps, Current: -20, -53
+[00:36:00] [DH-World Gen Thread[2]/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=79}
+[00:36:01] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3233 chunks (20.04%), ETA: 0:07:22, Rate: 29.1 cps, Current: -17, -53
+[00:36:02] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3301 chunks (20.47%), ETA: 0:07:00, Rate: 30.5 cps, Current: -29, -54
+[00:36:03] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3316 chunks (20.56%), ETA: 0:07:23, Rate: 28.9 cps, Current: -32, -54
+[00:36:04] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3326 chunks (20.62%), ETA: 0:07:37, Rate: 28.0 cps, Current: -32, -51
+[00:36:05] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3340 chunks (20.71%), ETA: 0:07:40, Rate: 27.8 cps, Current: -27, -48
+[00:36:06] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3450 chunks (21.39%), ETA: 0:06:55, Rate: 30.5 cps, Current: -29, -38
+[00:36:07] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3493 chunks (21.66%), ETA: 0:06:43, Rate: 31.3 cps, Current: -24, -40
+[00:36:08] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=111}
+[00:36:08] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=115}
+[00:36:08] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=119}
+[00:36:08] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=123}
+[00:36:08] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=79}
+[00:36:08] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=83}
+[00:36:08] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=87}
+[00:36:08] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=91}
+[00:36:08] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=115}
+[00:36:08] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=119}
+[00:36:08] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=123}
+[00:36:08] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=115}
+[00:36:08] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=119}
+[00:36:08] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=123}
+[00:36:08] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=95}
+[00:36:08] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=99}
+[00:36:08] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=103}
+[00:36:08] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=99}
+[00:36:08] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=107}
+[00:36:08] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=103}
+[00:36:08] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=107}
+[00:36:08] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=111}
+[00:36:08] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=79}
+[00:36:08] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=79}
+[00:36:08] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=83}
+[00:36:08] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=87}
+[00:36:08] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=91}
+[00:36:08] [C2ME worker #6/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=83}
+[00:36:08] [C2ME worker #6/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=87}
+[00:36:08] [C2ME worker #6/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=91}
+[00:36:08] [C2ME worker #6/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=95}
+[00:36:08] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3554 chunks (22.03%), ETA: 0:06:50, Rate: 30.6 cps, Current: -18, -44
+[00:36:09] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=95}
+[00:36:09] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=99}
+[00:36:09] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=103}
+[00:36:09] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=107}
+[00:36:09] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=111}
+[00:36:09] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=115}
+[00:36:09] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=119}
+[00:36:09] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=123}
+[00:36:09] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3584 chunks (22.22%), ETA: 0:07:08, Rate: 29.3 cps, Current: -16, -45
+[00:36:11] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3591 chunks (22.26%), ETA: 0:07:42, Rate: 27.1 cps, Current: -15, -47
+[00:36:11] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=99}
+[00:36:11] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=103}
+[00:36:11] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=107}
+[00:36:11] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=111}
+[00:36:12] [C2ME worker #1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=83}
+[00:36:12] [C2ME worker #1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=87}
+[00:36:12] [C2ME worker #1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=91}
+[00:36:12] [C2ME worker #1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=95}
+[00:36:12] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3604 chunks (22.34%), ETA: 0:08:01, Rate: 26.0 cps, Current: -13, -46
+[00:36:12] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=79}
+[00:36:13] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3687 chunks (22.86%), ETA: 0:08:04, Rate: 25.7 cps, Current: -13, -37
+[00:36:15] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3738 chunks (23.18%), ETA: 0:08:03, Rate: 25.6 cps, Current: -4, -33
+[00:36:16] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3740 chunks (23.19%), ETA: 0:08:27, Rate: 24.4 cps, Current: -5, -35
+[00:36:17] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3763 chunks (23.33%), ETA: 0:08:27, Rate: 24.3 cps, Current: -1, -35
+[00:36:17] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=79}
+[00:36:18] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=83}
+[00:36:18] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=87}
+[00:36:18] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=91}
+[00:36:18] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=95}
+[00:36:18] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3818 chunks (23.67%), ETA: 0:07:51, Rate: 26.1 cps, Current: -7, -47
+[00:36:18] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=99}
+[00:36:18] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=103}
+[00:36:18] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=107}
+[00:36:18] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=111}
+[00:36:19] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=115}
+[00:36:19] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=119}
+[00:36:19] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=123}
+[00:36:19] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3839 chunks (23.80%), ETA: 0:07:37, Rate: 26.9 cps, Current: -1, -55
+[00:36:20] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3866 chunks (23.97%), ETA: 0:07:26, Rate: 27.5 cps, Current: -5, -50
+[00:36:21] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3916 chunks (24.28%), ETA: 0:07:13, Rate: 28.2 cps, Current: -11, -50
+[00:36:22] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 3961 chunks (24.56%), ETA: 0:07:05, Rate: 28.6 cps, Current: -14, -55
+[00:36:23] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4001 chunks (24.81%), ETA: 0:06:41, Rate: 30.2 cps, Current: -16, -64
+[00:36:24] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4094 chunks (25.38%), ETA: 0:06:12, Rate: 32.3 cps, Current: -3, -64
+[00:36:28] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4097 chunks (25.40%), ETA: 0:06:35, Rate: 30.4 cps, Current: -63, -61
+[00:36:30] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4147 chunks (25.71%), ETA: 0:06:26, Rate: 31.0 cps, Current: -58, -59
+[00:36:31] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4153 chunks (25.75%), ETA: 0:06:25, Rate: 31.1 cps, Current: -57, -62
+[00:36:32] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4170 chunks (25.85%), ETA: 0:06:47, Rate: 29.4 cps, Current: -54, -64
+[00:36:33] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4220 chunks (26.16%), ETA: 0:06:25, Rate: 30.9 cps, Current: -55, -57
+[00:36:34] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4237 chunks (26.27%), ETA: 0:06:21, Rate: 31.1 cps, Current: -56, -53
+[00:36:35] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4274 chunks (26.50%), ETA: 0:06:10, Rate: 32.0 cps, Current: -54, -51
+[00:36:36] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4318 chunks (26.77%), ETA: 0:06:37, Rate: 29.7 cps, Current: -60, -50
+[00:36:37] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4351 chunks (26.98%), ETA: 0:06:43, Rate: 29.2 cps, Current: -62, -48
+[00:36:38] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4377 chunks (27.14%), ETA: 0:07:02, Rate: 27.8 cps, Current: -58, -46
+[00:36:39] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4405 chunks (27.31%), ETA: 0:07:01, Rate: 27.8 cps, Current: -58, -41
+[00:36:40] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4423 chunks (27.42%), ETA: 0:06:53, Rate: 28.3 cps, Current: -63, -39
+[00:36:41] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4457 chunks (27.63%), ETA: 0:06:41, Rate: 29.1 cps, Current: -58, -39
+[00:36:43] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4521 chunks (28.03%), ETA: 0:06:55, Rate: 27.9 cps, Current: -49, -34
+[00:36:44] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4597 chunks (28.50%), ETA: 0:06:31, Rate: 29.5 cps, Current: -49, -45
+[00:36:45] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4609 chunks (28.58%), ETA: 0:06:25, Rate: 29.9 cps, Current: -48, -48
+[00:36:46] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4765 chunks (29.54%), ETA: 0:05:30, Rate: 34.4 cps, Current: -39, -37
+[00:36:47] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4819 chunks (29.88%), ETA: 0:05:27, Rate: 34.5 cps, Current: -37, -41
+[00:36:48] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4852 chunks (30.08%), ETA: 0:05:23, Rate: 34.8 cps, Current: -33, -51
+[00:36:49] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4880 chunks (30.26%), ETA: 0:05:23, Rate: 34.7 cps, Current: -33, -53
+[00:36:51] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4902 chunks (30.39%), ETA: 0:05:34, Rate: 33.6 cps, Current: -38, -52
+[00:36:52] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4939 chunks (30.62%), ETA: 0:05:36, Rate: 33.2 cps, Current: -40, -56
+[00:36:53] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 4961 chunks (30.76%), ETA: 0:05:41, Rate: 32.7 cps, Current: -43, -53
+[00:36:54] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5008 chunks (31.05%), ETA: 0:05:56, Rate: 31.2 cps, Current: -47, -58
+[00:36:55] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5027 chunks (31.17%), ETA: 0:05:16, Rate: 35.1 cps, Current: -48, -62
+[00:36:56] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5031 chunks (31.19%), ETA: 0:05:28, Rate: 33.7 cps, Current: -46, -62
+[00:36:59] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5121 chunks (31.75%), ETA: 0:05:36, Rate: 32.8 cps, Current: -62, -29
+[00:37:00] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5135 chunks (31.84%), ETA: 0:05:33, Rate: 33.0 cps, Current: -58, -30
+[00:37:02] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5153 chunks (31.95%), ETA: 0:05:41, Rate: 32.2 cps, Current: -56, -32
+[00:37:03] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5192 chunks (32.19%), ETA: 0:05:32, Rate: 32.9 cps, Current: -63, -27
+[00:37:04] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5287 chunks (32.78%), ETA: 0:05:12, Rate: 34.7 cps, Current: -51, -17
+[00:37:05] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5300 chunks (32.86%), ETA: 0:05:22, Rate: 33.6 cps, Current: -57, -22
+[00:37:06] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5344 chunks (33.13%), ETA: 0:05:17, Rate: 34.0 cps, Current: -55, -18
+[00:37:08] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5389 chunks (33.41%), ETA: 0:05:12, Rate: 34.3 cps, Current: -61, -15
+[00:37:09] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5415 chunks (33.57%), ETA: 0:05:13, Rate: 34.2 cps, Current: -64, -10
+[00:37:10] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5446 chunks (33.77%), ETA: 0:05:10, Rate: 34.4 cps, Current: -61, -7
+[00:37:11] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 5540 chunks (34.35%), ETA: 0:04:50, Rate: 36.4 cps, Current: -56, -4
+[00:37:13] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6145 chunks (38.10%), ETA: 0:03:07, Rate: 53.3 cps, Current: -63, 0
+[00:37:14] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6173 chunks (38.27%), ETA: 0:03:03, Rate: 54.3 cps, Current: -60, 2
+[00:37:15] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6227 chunks (38.61%), ETA: 0:03:02, Rate: 54.2 cps, Current: -54, 1
+[00:37:16] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6257 chunks (38.79%), ETA: 0:03:17, Rate: 50.0 cps, Current: -56, 8
+[00:37:17] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6282 chunks (38.95%), ETA: 0:03:20, Rate: 49.0 cps, Current: -53, 8
+[00:37:18] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6312 chunks (39.13%), ETA: 0:03:20, Rate: 48.9 cps, Current: -53, 13
+[00:37:19] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6383 chunks (39.57%), ETA: 0:03:13, Rate: 50.5 cps, Current: -62, 12
+[00:37:21] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6392 chunks (39.63%), ETA: 0:03:15, Rate: 49.8 cps, Current: -61, 15
+[00:37:22] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6405 chunks (39.71%), ETA: 0:03:16, Rate: 49.4 cps, Current: -64, 14
+[00:37:23] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6445 chunks (39.96%), ETA: 0:03:16, Rate: 49.2 cps, Current: -60, 22
+[00:37:24] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6462 chunks (40.06%), ETA: 0:03:14, Rate: 49.6 cps, Current: -64, 22
+[00:37:25] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6511 chunks (40.37%), ETA: 0:03:14, Rate: 49.5 cps, Current: -59, 30
+[00:37:26] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6551 chunks (40.62%), ETA: 0:03:07, Rate: 51.0 cps, Current: -55, 29
+[00:37:27] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6646 chunks (41.21%), ETA: 0:02:52, Rate: 55.0 cps, Current: -51, 20
+[00:37:28] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6657 chunks (41.27%), ETA: 0:02:58, Rate: 53.0 cps, Current: -48, 17
+[00:37:29] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6707 chunks (41.58%), ETA: 0:02:53, Rate: 54.2 cps, Current: -48, 30
+[00:37:32] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6753 chunks (41.87%), ETA: 0:02:53, Rate: 54.0 cps, Current: -42, 18
+[00:37:33] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6793 chunks (42.12%), ETA: 0:02:54, Rate: 53.5 cps, Current: -38, 24
+[00:37:34] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6812 chunks (42.23%), ETA: 0:03:02, Rate: 51.1 cps, Current: -37, 31
+[00:37:35] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6858 chunks (42.52%), ETA: 0:02:56, Rate: 52.4 cps, Current: -34, 25
+[00:37:36] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6896 chunks (42.76%), ETA: 0:02:56, Rate: 52.2 cps, Current: -38, 18
+[00:37:37] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6924 chunks (42.93%), ETA: 0:02:55, Rate: 52.5 cps, Current: -34, 14
+[00:37:38] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 7009 chunks (43.46%), ETA: 0:02:47, Rate: 54.6 cps, Current: -48, 11
+[00:37:39] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 7173 chunks (44.47%), ETA: 0:02:30, Rate: 59.5 cps, Current: -33, 6
+[00:37:41] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 7261 chunks (45.02%), ETA: 0:03:43, Rate: 39.7 cps, Current: -24, 4
+[00:37:42] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 7280 chunks (45.14%), ETA: 0:03:46, Rate: 39.0 cps, Current: -24, 8
+[00:37:43] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 7327 chunks (45.43%), ETA: 0:03:43, Rate: 39.4 cps, Current: -20, 10
+[00:37:44] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 7427 chunks (46.05%), ETA: 0:03:31, Rate: 41.1 cps, Current: -29, 13
+[00:37:45] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 7481 chunks (46.38%), ETA: 0:03:26, Rate: 41.9 cps, Current: -25, 22
+[00:37:47] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 7537 chunks (46.73%), ETA: 0:03:24, Rate: 41.9 cps, Current: -28, 24
+[00:37:48] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 7559 chunks (46.87%), ETA: 0:03:31, Rate: 40.6 cps, Current: -23, 26
+[00:37:49] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 7600 chunks (47.12%), ETA: 0:03:20, Rate: 42.6 cps, Current: -19, 27
+[00:37:50] [Server thread/WARN]: §6Distant Horizons overloaded, too many chunks queued for LOD processing. §r
+This may result in holes in your LODs. 
+Fix: move through the world slower, decrease your vanilla render distance, slow down your world pre-generator (IE Chunky), or increase the Distant Horizons' CPU thread counts. 
+Max queue count [6000] ([1000] per thread+players).
+[00:37:51] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 8046 chunks (49.89%), ETA: 0:02:24, Rate: 55.8 cps, Current: -16, 10
+[00:37:52] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 8352 chunks (51.78%), ETA: 0:01:58, Rate: 65.7 cps, Current: 6, 14
+[00:37:54] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 8387 chunks (52.00%), ETA: 0:01:59, Rate: 64.9 cps, Current: 6, 11
+[00:37:55] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 8702 chunks (53.95%), ETA: 0:01:40, Rate: 74.0 cps, Current: 15, 19
+[00:37:56] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 8726 chunks (54.10%), ETA: 0:01:40, Rate: 73.3 cps, Current: 16, 23
+[00:37:57] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 8795 chunks (54.53%), ETA: 0:01:42, Rate: 71.7 cps, Current: 20, 24
+[00:37:58] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 8822 chunks (54.70%), ETA: 0:01:40, Rate: 72.6 cps, Current: 23, 25
+[00:37:59] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 8869 chunks (54.99%), ETA: 0:01:39, Rate: 72.8 cps, Current: 26, 28
+[00:38:00] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 8937 chunks (55.41%), ETA: 0:01:33, Rate: 76.7 cps, Current: 25, 18
+[00:38:01] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 8982 chunks (55.69%), ETA: 0:01:34, Rate: 75.6 cps, Current: 29, 11
+[00:38:06] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 9012 chunks (55.87%), ETA: 0:01:39, Rate: 71.3 cps, Current: 16, 15
+[00:38:07] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 9128 chunks (56.59%), ETA: 0:01:34, Rate: 73.7 cps, Current: 17, 2
+[00:38:10] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 9137 chunks (56.65%), ETA: 0:01:46, Rate: 65.8 cps, Current: 20, 0
+[00:38:12] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 9203 chunks (57.06%), ETA: 0:01:47, Rate: 64.5 cps, Current: 31, 0
+[00:38:12] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=115}
+[00:38:12] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=119}
+[00:38:12] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=123}
+[00:38:12] [C2ME worker #5/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=83}
+[00:38:12] [C2ME worker #5/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=87}
+[00:38:12] [C2ME worker #5/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=91}
+[00:38:12] [C2ME worker #5/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=95}
+[00:38:12] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=99}
+[00:38:12] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=103}
+[00:38:12] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=107}
+[00:38:12] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=111}
+[00:38:14] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=83}
+[00:38:14] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=87}
+[00:38:14] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=91}
+[00:38:14] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=95}
+[00:38:14] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=115}
+[00:38:14] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=119}
+[00:38:14] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=123}
+[00:38:14] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=79}
+[00:38:14] [C2ME worker #1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=99}
+[00:38:14] [C2ME worker #1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=103}
+[00:38:14] [C2ME worker #1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=107}
+[00:38:14] [C2ME worker #1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=111}
+[00:38:14] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=79}
+[00:38:14] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=83}
+[00:38:14] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=87}
+[00:38:14] [C2ME worker #4/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=91}
+[00:38:14] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 9249 chunks (57.34%), ETA: 0:01:52, Rate: 60.9 cps, Current: 33, 0
+[00:38:15] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=95}
+[00:38:15] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=99}
+[00:38:15] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=103}
+[00:38:15] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=107}
+[00:38:15] [C2ME worker #6/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=111}
+[00:38:15] [C2ME worker #6/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=115}
+[00:38:15] [C2ME worker #6/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=119}
+[00:38:15] [C2ME worker #6/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=123}
+[00:38:17] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 9345 chunks (57.94%), ETA: 0:01:50, Rate: 61.5 cps, Current: 32, -4
+[00:38:19] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 9377 chunks (58.14%), ETA: 0:01:51, Rate: 60.5 cps, Current: 33, -15
+[00:38:20] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 9441 chunks (58.53%), ETA: 0:02:19, Rate: 47.9 cps, Current: 35, -32
+[00:38:20] [Server thread/WARN]: §6Distant Horizons overloaded, too many chunks queued for LOD processing. §r
+This may result in holes in your LODs. 
+Fix: move through the world slower, decrease your vanilla render distance, slow down your world pre-generator (IE Chunky), or increase the Distant Horizons' CPU thread counts. 
+Max queue count [6000] ([1000] per thread+players).
+[00:38:21] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 9473 chunks (58.73%), ETA: 0:02:52, Rate: 38.5 cps, Current: 32, -61
+[00:38:22] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 9545 chunks (59.18%), ETA: 0:02:39, Rate: 41.2 cps, Current: 34, -60
+[00:38:23] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 9581 chunks (59.40%), ETA: 0:02:40, Rate: 40.8 cps, Current: 35, -43
+[00:38:24] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 9602 chunks (59.53%), ETA: 0:03:35, Rate: 30.3 cps, Current: 33, -77
+[00:38:25] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 9637 chunks (59.75%), ETA: 0:03:31, Rate: 30.7 cps, Current: 34, -65
+[00:38:27] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 9655 chunks (59.86%), ETA: 0:03:42, Rate: 29.1 cps, Current: 35, -66
+[00:38:28] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 9724 chunks (60.29%), ETA: 0:03:31, Rate: 30.3 cps, Current: 2, -67
+[00:38:29] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 9761 chunks (60.52%), ETA: 0:03:32, Rate: 29.9 cps, Current: 5, -81
+[00:38:30] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 9800 chunks (60.76%), ETA: 0:03:39, Rate: 28.9 cps, Current: 7, -81
+[00:38:31] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 9849 chunks (61.06%), ETA: 0:03:36, Rate: 29.0 cps, Current: 9, -73
+[00:38:32] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 9916 chunks (61.48%), ETA: 0:03:02, Rate: 34.1 cps, Current: 13, -66
+[00:38:33] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 9966 chunks (61.79%), ETA: 0:02:58, Rate: 34.6 cps, Current: 17, -65
+[00:38:34] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 10025 chunks (62.16%), ETA: 0:02:52, Rate: 35.4 cps, Current: 20, -82
+[00:38:35] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 10089 chunks (62.55%), ETA: 0:02:46, Rate: 36.3 cps, Current: 23, -66
+[00:38:38] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 10240 chunks (63.49%), ETA: 0:02:34, Rate: 38.2 cps, Current: 31, -65
+[00:38:40] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 10300 chunks (63.86%), ETA: 0:02:27, Rate: 39.5 cps, Current: -29, -65
+[00:38:41] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 10344 chunks (64.13%), ETA: 0:02:26, Rate: 39.6 cps, Current: -27, -82
+[00:38:42] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 10395 chunks (64.45%), ETA: 0:02:23, Rate: 39.9 cps, Current: -24, -76
+[00:38:43] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 10442 chunks (64.74%), ETA: 0:02:16, Rate: 41.6 cps, Current: -22, -80
+[00:38:44] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 10479 chunks (64.97%), ETA: 0:02:16, Rate: 41.4 cps, Current: -20, -76
+[00:38:45] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 10511 chunks (65.17%), ETA: 0:02:13, Rate: 42.2 cps, Current: -18, -75
+[00:38:46] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 10556 chunks (65.45%), ETA: 0:02:12, Rate: 42.0 cps, Current: -15, -79
+[00:38:47] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 10613 chunks (65.80%), ETA: 0:02:10, Rate: 42.4 cps, Current: -12, -72
+[00:38:48] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 10645 chunks (66.00%), ETA: 0:02:07, Rate: 43.0 cps, Current: -11, -73
+[00:38:49] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 10662 chunks (66.10%), ETA: 0:02:12, Rate: 41.4 cps, Current: -10, -80
+[00:38:50] [Server thread/WARN]: §6Distant Horizons overloaded, too many chunks queued for LOD processing. §r
+This may result in holes in your LODs. 
+Fix: move through the world slower, decrease your vanilla render distance, slow down your world pre-generator (IE Chunky), or increase the Distant Horizons' CPU thread counts. 
+Max queue count [6000] ([1000] per thread+players).
+[00:38:50] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 10696 chunks (66.32%), ETA: 0:02:10, Rate: 41.5 cps, Current: -7, -66
+[00:38:51] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 10823 chunks (67.10%), ETA: 0:02:02, Rate: 43.3 cps, Current: -2, -71
+[00:38:53] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 10825 chunks (67.12%), ETA: 0:02:04, Rate: 42.5 cps, Current: -64, -65
+[00:38:54] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 10869 chunks (67.39%), ETA: 0:02:04, Rate: 42.4 cps, Current: -63, -72
+[00:38:55] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 10918 chunks (67.69%), ETA: 0:02:01, Rate: 42.9 cps, Current: -59, -74
+[00:38:56] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 10997 chunks (68.18%), ETA: 0:01:53, Rate: 45.2 cps, Current: -55, -72
+[00:38:57] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 11052 chunks (68.52%), ETA: 0:01:52, Rate: 45.1 cps, Current: -51, -65
+[00:38:58] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 11081 chunks (68.70%), ETA: 0:01:52, Rate: 44.8 cps, Current: -50, -72
+[00:38:59] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 11124 chunks (68.97%), ETA: 0:01:50, Rate: 45.1 cps, Current: -47, -78
+[00:39:00] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 11173 chunks (69.27%), ETA: 0:01:49, Rate: 45.1 cps, Current: -45, -67
+[00:39:01] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 11228 chunks (69.61%), ETA: 0:01:49, Rate: 44.7 cps, Current: -42, -72
+[00:39:02] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 11267 chunks (69.86%), ETA: 0:01:49, Rate: 44.4 cps, Current: -40, -70
+[00:39:04] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 11376 chunks (70.53%), ETA: 0:01:43, Rate: 46.0 cps, Current: -33, -74
+[00:39:05] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 11397 chunks (70.66%), ETA: 0:01:46, Rate: 44.6 cps, Current: -34, -81
+[00:39:06] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 11401 chunks (70.69%), ETA: 0:01:52, Rate: 41.9 cps, Current: -91, -72
+[00:39:07] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 11490 chunks (71.24%), ETA: 0:01:46, Rate: 43.4 cps, Current: -87, -65
+[00:39:08] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 11506 chunks (71.34%), ETA: 0:01:48, Rate: 42.5 cps, Current: -85, -79
+[00:39:10] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 11591 chunks (71.86%), ETA: 0:01:45, Rate: 43.0 cps, Current: -81, -72
+[00:39:11] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 11615 chunks (72.01%), ETA: 0:01:47, Rate: 42.1 cps, Current: -80, -68
+[00:39:12] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 11666 chunks (72.33%), ETA: 0:01:45, Rate: 42.4 cps, Current: -77, -70
+[00:39:13] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 11705 chunks (72.57%), ETA: 0:01:44, Rate: 42.2 cps, Current: -74, -78
+[00:39:14] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 11749 chunks (72.84%), ETA: 0:01:43, Rate: 42.5 cps, Current: -72, -65
+[00:39:17] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 11887 chunks (73.70%), ETA: 0:01:39, Rate: 42.5 cps, Current: -91, -64
+[00:39:18] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 11900 chunks (73.78%), ETA: 0:01:40, Rate: 41.9 cps, Current: -91, -55
+[00:39:19] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 11973 chunks (74.23%), ETA: 0:01:35, Rate: 43.7 cps, Current: -89, -58
+[00:39:20] [Server thread/WARN]: §6Distant Horizons overloaded, too many chunks queued for LOD processing. §r
+This may result in holes in your LODs. 
+Fix: move through the world slower, decrease your vanilla render distance, slow down your world pre-generator (IE Chunky), or increase the Distant Horizons' CPU thread counts. 
+Max queue count [6000] ([1000] per thread+players).
+[00:39:20] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 12031 chunks (74.59%), ETA: 0:01:31, Rate: 44.6 cps, Current: -87, -57
+[00:39:21] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 12090 chunks (74.96%), ETA: 0:01:35, Rate: 42.3 cps, Current: -85, -58
+[00:39:22] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 12144 chunks (75.29%), ETA: 0:01:27, Rate: 45.3 cps, Current: -83, -54
+[00:39:23] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 12202 chunks (75.65%), ETA: 0:01:25, Rate: 45.9 cps, Current: -82, -35
+[00:39:24] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 12264 chunks (76.04%), ETA: 0:01:23, Rate: 46.4 cps, Current: -80, -41
+[00:39:25] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 12310 chunks (76.32%), ETA: 0:01:24, Rate: 45.3 cps, Current: -78, -58
+[00:39:27] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 12378 chunks (76.74%), ETA: 0:01:23, Rate: 44.8 cps, Current: -76, -53
+[00:39:28] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 12441 chunks (77.13%), ETA: 0:01:20, Rate: 45.9 cps, Current: -74, -54
+[00:39:29] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 12473 chunks (77.33%), ETA: 0:01:20, Rate: 45.5 cps, Current: -74, -34
+[00:39:30] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 12526 chunks (77.66%), ETA: 0:01:19, Rate: 45.6 cps, Current: -72, -33
+[00:39:31] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 12632 chunks (78.32%), ETA: 0:01:13, Rate: 47.3 cps, Current: -68, -52
+[00:39:34] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 12751 chunks (79.06%), ETA: 0:01:14, Rate: 45.3 cps, Current: -90, -32
+[00:39:36] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 12803 chunks (79.38%), ETA: 0:01:09, Rate: 47.8 cps, Current: -90, -12
+[00:39:37] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 12880 chunks (79.86%), ETA: 0:01:08, Rate: 47.5 cps, Current: -87, -31
+[00:39:38] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 12936 chunks (80.20%), ETA: 0:01:05, Rate: 48.9 cps, Current: -86, -3
+[00:39:39] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 13005 chunks (80.63%), ETA: 0:01:03, Rate: 49.0 cps, Current: -84, -18
+[00:39:40] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 13064 chunks (81.00%), ETA: 0:01:02, Rate: 49.4 cps, Current: -82, -12
+[00:39:41] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 13121 chunks (81.35%), ETA: 0:00:59, Rate: 50.4 cps, Current: -80, -11
+[00:39:42] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 13176 chunks (81.69%), ETA: 0:00:58, Rate: 50.6 cps, Current: -78, -23
+[00:39:43] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 13233 chunks (82.04%), ETA: 0:00:56, Rate: 51.3 cps, Current: -76, -31
+[00:39:44] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 13287 chunks (82.38%), ETA: 0:00:55, Rate: 51.6 cps, Current: -75, -4
+[00:39:45] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 13339 chunks (82.70%), ETA: 0:00:52, Rate: 52.8 cps, Current: -73, -18
+[00:39:46] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 13389 chunks (83.01%), ETA: 0:00:51, Rate: 52.7 cps, Current: -72, -8
+[00:39:47] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 13477 chunks (83.56%), ETA: 0:00:49, Rate: 53.9 cps, Current: -69, -24
+[00:39:49] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 13615 chunks (84.41%), ETA: 0:00:46, Rate: 54.1 cps, Current: -90, 0
+[00:39:50] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 13651 chunks (84.64%), ETA: 0:00:46, Rate: 53.5 cps, Current: -91, 17
+[00:39:51] [Server thread/WARN]: §6Distant Horizons overloaded, too many chunks queued for LOD processing. §r
+This may result in holes in your LODs. 
+Fix: move through the world slower, decrease your vanilla render distance, slow down your world pre-generator (IE Chunky), or increase the Distant Horizons' CPU thread counts. 
+Max queue count [6000] ([1000] per thread+players).
+[00:39:52] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 13709 chunks (85.00%), ETA: 0:00:45, Rate: 53.6 cps, Current: -89, 30
+[00:39:53] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 13772 chunks (85.39%), ETA: 0:00:43, Rate: 53.8 cps, Current: -87, 25
+[00:39:54] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 13834 chunks (85.77%), ETA: 0:00:43, Rate: 53.0 cps, Current: -84, 1
+[00:39:55] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 13908 chunks (86.23%), ETA: 0:00:41, Rate: 54.0 cps, Current: -82, 4
+[00:39:56] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 13969 chunks (86.61%), ETA: 0:00:39, Rate: 54.9 cps, Current: -81, 27
+[00:39:57] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 14035 chunks (87.02%), ETA: 0:00:38, Rate: 55.0 cps, Current: -78, 5
+[00:39:58] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 14103 chunks (87.44%), ETA: 0:00:36, Rate: 55.4 cps, Current: -76, 8
+[00:39:59] [C2ME worker #6/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 14161 chunks (87.80%), ETA: 0:00:34, Rate: 56.4 cps, Current: -74, 5
+[00:40:00] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 14219 chunks (88.16%), ETA: 0:00:33, Rate: 56.6 cps, Current: -72, 1
+[00:40:01] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 14267 chunks (88.46%), ETA: 0:00:34, Rate: 54.7 cps, Current: -71, 19
+[00:40:04] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 14479 chunks (89.77%), ETA: 0:00:27, Rate: 59.2 cps, Current: -91, 32
+[00:40:05] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 14547 chunks (90.19%), ETA: 0:00:26, Rate: 59.6 cps, Current: -86, 33
+[00:40:06] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 14610 chunks (90.58%), ETA: 0:00:25, Rate: 59.2 cps, Current: -82, 38
+[00:40:07] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 14701 chunks (91.15%), ETA: 0:00:23, Rate: 59.8 cps, Current: -73, 32
+[00:40:08] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 14739 chunks (91.38%), ETA: 0:00:23, Rate: 58.8 cps, Current: -72, 44
+[00:40:09] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 14810 chunks (91.82%), ETA: 0:00:22, Rate: 59.2 cps, Current: -66, 36
+[00:40:10] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 14875 chunks (92.23%), ETA: 0:00:21, Rate: 59.4 cps, Current: -60, 33
+[00:40:11] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 14949 chunks (92.68%), ETA: 0:00:19, Rate: 60.1 cps, Current: -55, 37
+[00:40:12] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 15013 chunks (93.08%), ETA: 0:00:18, Rate: 60.3 cps, Current: -51, 43
+[00:40:13] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 15067 chunks (93.42%), ETA: 0:00:17, Rate: 60.3 cps, Current: -47, 44
+[00:40:14] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 15127 chunks (93.79%), ETA: 0:00:16, Rate: 60.6 cps, Current: -41, 35
+[00:40:15] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 15178 chunks (94.10%), ETA: 0:00:15, Rate: 60.6 cps, Current: -37, 35
+[00:40:16] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 15239 chunks (94.48%), ETA: 0:00:14, Rate: 59.7 cps, Current: -33, 39
+[00:40:17] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 15294 chunks (94.82%), ETA: 0:00:13, Rate: 60.5 cps, Current: -27, 33
+[00:40:18] [C2ME worker #1/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 15346 chunks (95.15%), ETA: 0:00:13, Rate: 60.2 cps, Current: -23, 32
+[00:40:19] [C2ME worker #3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 15408 chunks (95.53%), ETA: 0:00:11, Rate: 60.2 cps, Current: -20, 37
+[00:40:20] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 15478 chunks (95.96%), ETA: 0:00:10, Rate: 61.3 cps, Current: -14, 35
+[00:40:21] [DH-LOD Builder Thread[3]/WARN]: §6Distant Horizons overloaded, too many chunks queued for LOD processing. §r
+This may result in holes in your LODs. 
+Fix: move through the world slower, decrease your vanilla render distance, slow down your world pre-generator (IE Chunky), or increase the Distant Horizons' CPU thread counts. 
+Max queue count [6000] ([1000] per thread+players).
+[00:40:21] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 15554 chunks (96.43%), ETA: 0:00:09, Rate: 61.8 cps, Current: -11, 42
+[00:40:22] [C2ME worker #4/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 15637 chunks (96.95%), ETA: 0:00:07, Rate: 62.4 cps, Current: -4, 40
+[00:40:23] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 15718 chunks (97.45%), ETA: 0:00:06, Rate: 64.0 cps, Current: 3, 38
+[00:40:24] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 15796 chunks (97.94%), ETA: 0:00:05, Rate: 64.1 cps, Current: 11, 35
+[00:40:25] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 15859 chunks (98.33%), ETA: 0:00:04, Rate: 64.2 cps, Current: 14, 39
+[00:40:26] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 15919 chunks (98.70%), ETA: 0:00:03, Rate: 64.0 cps, Current: 18, 42
+[00:40:27] [C2ME worker #5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 15978 chunks (99.06%), ETA: 0:00:02, Rate: 63.7 cps, Current: 24, 40
+[00:40:29] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 16048 chunks (99.50%), ETA: 0:00:01, Rate: 64.2 cps, Current: 29, 36
+[00:40:29] [C2ME worker #1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=79}
+[00:40:29] [C2ME worker #1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=79}
+[00:40:29] [C2ME worker #1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=83}
+[00:40:29] [C2ME worker #1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=87}
+[00:40:29] [C2ME worker #1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=91}
+[00:40:29] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=95}
+[00:40:29] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=99}
+[00:40:29] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=103}
+[00:40:29] [C2ME worker #3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=107}
+[00:40:29] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=111}
+[00:40:29] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=115}
+[00:40:29] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=119}
+[00:40:29] [C2ME worker #2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=123}
+[00:40:30] [C2ME worker #2/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 16127 chunks (99.99%), ETA: 0:00:00, Rate: 64.9 cps, Current: 35, 42
+[00:40:30] [C2ME worker #6/INFO]: [Chunky] Task finished for minecraft:overworld. Processed: 16129 chunks (100.00%), Total time: 0:07:06
+[00:42:24] [User Authenticator #2/INFO]: UUID of player QuimetMCl is cb5a622d-e338-4a28-9950-4bacc3693c07
+[00:42:24] [Server thread/INFO]: QuimetMCl[/172.18.0.1:35412] logged in with entity id 8679 at (-419.8396975087341, 68.0, -294.59666711647697)
+[00:42:24] [Server thread/INFO]: Sent config sync packet to 1 player(s)
+[00:42:24] [Server thread/INFO]: Player [QuimetMCl] joined.
+[00:42:24] [Server thread/INFO]: QuimetMCl joined the game
+[00:42:24] [Server thread/INFO]: Async chunk loading for player QuimetMCl completed
+[00:42:26] [Server thread/INFO]: [voicechat] Received secret request of QuimetMCl (20)
+[00:42:26] [Server thread/INFO]: [voicechat] Sent secret to QuimetMCl
+[00:42:39] [Server thread/INFO]: [QuimetMCl: Set the time to 1000]
+[00:44:15] [Server thread/WARN]: QuimetMCl moved too quickly! -5.466303687494701,0.0,-9.343953656103167
+[00:44:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2089ms or 41 ticks behind
+[00:44:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5915ms or 118 ticks behind
+[00:44:54] [Server thread/INFO]: [QuimetMCl: Set own game mode to Survival Mode]
+[00:44:55] [Server thread/INFO]: [QuimetMCl: Set own game mode to Creative Mode]
+[00:44:57] [Server thread/INFO]: [QuimetMCl: Set own game mode to Spectator Mode]
+[00:45:00] [Server thread/WARN]: QuimetMCl moved too quickly! 17.254256409430923,0.46313834504405804,15.796669360003762
+[00:45:01] [Server thread/WARN]: QuimetMCl moved too quickly! 4.479244145246639,0.0,10.59961979886009
+[00:45:02] [Server thread/WARN]: QuimetMCl moved too quickly! 4.048114785940925,0.0,10.779091790298594
+[00:45:03] [Server thread/WARN]: QuimetMCl moved too quickly! 2.3963459903640114,0.0,17.5104597950467
+[00:45:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3693ms or 73 ticks behind
+[00:45:07] [Server thread/WARN]: QuimetMCl moved too quickly! 21.653388681478646,0.0,11.183208342735046
+[00:45:07] [Server thread/WARN]: QuimetMCl moved too quickly! 17.956165114747023,0.0,9.382578672634814
+[00:45:23] [Server thread/WARN]: QuimetMCl moved too quickly! -6.738971265346549,-6.854976272392264,5.250974652808651
+[00:45:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3301ms or 66 ticks behind
+[00:45:33] [Server thread/WARN]: QuimetMCl moved too quickly! 3.751577327292239,-10.397963069331524,-0.830081982164586
+[00:45:36] [Server thread/INFO]: [QuimetMCl: Set own game mode to Creative Mode]
+[00:45:48] [Server thread/INFO]: [QuimetMCl: Started tick profiling]
+[00:45:55] [Server thread/INFO]: [QuimetMCl: Stopped tick profiling after 7.13 seconds and 129 ticks (18.09 ticks per second)]
+[00:46:05] [Server thread/INFO]: [QuimetMCl: Set own game mode to Spectator Mode]
+[00:46:06] [Server thread/INFO]: [QuimetMCl: Set own game mode to Creative Mode]
+[00:46:22] [Server thread/INFO]: [QuimetMCl: Set own game mode to Spectator Mode]
+[00:46:26] [Server thread/WARN]: QuimetMCl moved too quickly! -0.7265417733156028,-1.3935660700428372,-25.634024711837043
+[00:46:30] [Server thread/INFO]: [QuimetMCl: Set own game mode to Creative Mode]
+[00:46:52] [Server thread/INFO]: QuimetMCl has made the advancement [Best Friends Forever]
+[00:47:17] [Server thread/WARN]: QuimetMCl moved too quickly! -6.671808312727535,2.723948920699371,7.741932732253559
+[00:47:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2257ms or 45 ticks behind
+[00:47:34] [Server thread/INFO]: [QuimetMCl: Set own game mode to Spectator Mode]
+[00:47:35] [Server thread/INFO]: [QuimetMCl: Set own game mode to Creative Mode]
+[00:47:37] [Server thread/INFO]: [QuimetMCl: Set own game mode to Survival Mode]
+[00:48:56] [Server thread/INFO]: [QuimetMCl: Set own game mode to Creative Mode]
+[00:49:18] [Server thread/INFO]: [QuimetMCl: Set the time to 13000]
+[00:49:27] [Server thread/INFO]: [QuimetMCl: Set own game mode to Survival Mode]
+[00:49:44] [Server thread/INFO]: [QuimetMCl: Set own game mode to Creative Mode]
+[00:50:08] [Server thread/INFO]: [QuimetMCl: Set own game mode to Survival Mode]
+[00:50:19] [Server thread/INFO]: QuimetMCl has made the advancement [Sweet Dreams]
+[00:50:36] [Server thread/INFO]: [QuimetMCl: Set the time to 13000]
+[00:50:50] [Server thread/INFO]: [QuimetMCl: Set own game mode to Creative Mode]
+[00:50:54] [Server thread/INFO]: [QuimetMCl: Set own game mode to Survival Mode]
+[00:50:55] [Server thread/INFO]: QuimetMCl fell from a high place
+[00:50:55] [Server thread/INFO]: [STDOUT]: [Gravestones] Gravestone spawned at: -421, 68, -284
+[00:50:56] [Server thread/INFO]: Async chunk loading for player QuimetMCl completed
+[00:51:08] [Server thread/INFO]: [QuimetMCl: Set the time to 13000]
+[00:51:12] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
+[00:52:18] [Server thread/INFO]: QuimetMCl was slain by Iron Golem
+[00:52:18] [Server thread/INFO]: [STDOUT]: [Gravestones] Gravestone spawned at: -419, 71, -274
+[00:52:19] [Server thread/INFO]: Async chunk loading for player QuimetMCl completed
+[00:52:29] [Netty Epoll Play IO Thread #1/INFO]: Player [QuimetMCl] disconnected.
+[00:52:29] [Server thread/INFO]: QuimetMCl lost connection: Disconnected
+[00:52:29] [Server thread/INFO]: QuimetMCl left the game
+[00:52:29] [Server thread/INFO]: [voicechat] Disconnecting client QuimetMCl
+[00:52:39] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[00:52:39] [Server thread/INFO]: [Rcon: Stopping the server]
+[00:52:39] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[00:52:39] [Server thread/INFO]: Stopping server
+[00:52:39] [Server thread/INFO]: Saving players
+[00:52:39] [Server thread/INFO]: Saving worlds
+[00:52:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld

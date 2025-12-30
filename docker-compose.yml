@@ -1,0 +1,21 @@
+services:
+  mc:
+    image: itzg/minecraft-server
+    container_name: minecraft-fabric
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"
+    environment:
+      - EULA=TRUE
+      - VERSION=1.20.1 #poke si
+      - TYPE=FABRIC
+      - MEMORY=8G
+      # - FABRIC_LOADER_VERSION=latest
+    volumes:
+      # Donde se guardará el mundo y configs dea
+      - ./data:/data
+
+      # modsitos anashe
+      - ./mods:/data/mods
+    restart: unless-stopped
